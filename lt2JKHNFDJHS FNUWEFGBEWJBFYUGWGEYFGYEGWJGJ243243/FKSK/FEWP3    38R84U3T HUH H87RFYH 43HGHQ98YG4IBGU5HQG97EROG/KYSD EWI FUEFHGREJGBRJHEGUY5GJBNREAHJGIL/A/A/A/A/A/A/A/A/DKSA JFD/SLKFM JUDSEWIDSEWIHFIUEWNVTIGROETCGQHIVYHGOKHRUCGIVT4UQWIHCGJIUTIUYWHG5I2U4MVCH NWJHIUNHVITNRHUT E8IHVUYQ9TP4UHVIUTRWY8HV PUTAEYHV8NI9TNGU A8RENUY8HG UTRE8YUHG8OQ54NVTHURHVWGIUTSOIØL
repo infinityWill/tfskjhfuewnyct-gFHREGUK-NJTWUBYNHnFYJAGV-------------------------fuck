@@ -1,17 +1,15 @@
 
-local lib = loadstring(game:HttpGet("https://www.toptal.com/developers/hastebin/raw/goqudawoke", true))()
+local lib = loadstring(game:HttpGet("https://pastebin.com/raw/uUpsj6jK", true))()
 local main = lib:Main()
 local category = main:Category("6026568198")
 
 local section = category:Section("Version")
 
-section:TextLabel("Version 2.0");
+section:TextLabel("Version 1.0");
 
 local section = category:Section("Credits")
 
-section:TextLabel("Owners - Mr.Frosty | Silent");
-section:TextLabel("Whitelist Developer - Cipher");
-section:TextLabel("Ui Lib - Ancestor");
+section:TextLabel("Owners - Infinity, The Raven");
 
 local category = main:Category("5181994100")
 
